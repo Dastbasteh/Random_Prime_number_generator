@@ -91,10 +91,8 @@ for j in range(0,1):
         if Miller_Rabin(p)=="composite":
             i=0
             while Miller_Rabin(p)=="composite":   
-                p=prime_candidate(2048)
-            
+                p=prime_candidate(2048)        
     primes.append(p)
-    
 print(primes)    
     
 
